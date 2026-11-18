@@ -1,0 +1,39 @@
+Log in Sign up for free
+1.	Open an AWS account
+2.	Open EC2
+3.	Select an AWS Region
+4.	Click Launch instance
+5.	Enter Name and tags
+6.	Select Ubuntu under Application and OS Images
+7.	Choose the Instance type
+8.	Create a key pair 
+9.	Default Network settings / Security Group
+10.	Click Launch instance
+11.	Select the instance and click Connect
+12.	Select SSH client
+13.	Copy the SSH command
+14.	Open CMD and go to the Downloads folder (cd Downloadsss)
+15.	Paste the SSH command
+16.	Type yes when prompted
+17.	Successfully connect to the Ubuntu server
+
+-First, login to a free ASW account. 
+-Search for EC2, select a specific region, and then click “Launch instance.”  
+-Now, we are creating a Linux instance, click “Launch without a walkthrough.”  
+
+
+-Name and tags: Enter any server name of your choice.Under Application and OS Images (Amazon Machine Image), select the operating system you want to use, for example, Ubuntu OS.
+ 
+-Key Pair (Login): Click “Create a new key pair” and enter any name, for example, My-fast-key. Then click “Create key pair.” The key file will be automatically downloaded your Downloads folder. 
+-Finally, click “Launch instance.” The virtual server will then be created. 
+-Then, we need to connect to the server. Select the server and click “Connect.” 
+-Now, connect to the server using the SSH client and click “Connect.” 
+
+
+-Then, copy the 4th number is under “Connect to your instance using its Public DNS.” Open Command Prompt (CMD) on your system and type:
+-cd Downloads
+=Press Enter, then paste the command you copied and press Enter. When prompted, type Yes and press Enter. You will then be connected to the server.
+
+
+ 
+ 
