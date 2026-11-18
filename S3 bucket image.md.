@@ -1,0 +1,34 @@
+Open S3 and click “Create bucket.” 
+Enter any bucket name, then scroll down and click “Create bucket.” 
+ 
+Go to the bucket and click the “Upload” option. 
+
+
+Click “Add files,” select an image from your computer, and then click “Upload.”  
+ 
+When you open the image, you will see this page. Some configurations are still pending. 
+Go to the bucket, select your bucket, click the “Permissions” tab, and then edit “Block public access.”  
+Uncheck “Block all public access” and then click “Save changes.” 
+Click “Bucket policy” and then click “Edit.”
+ 
+Then open the AWS Policy Generator. 
+Policy Type: Select S3 Bucket Policy. 
+Principal: Enter *. 
+Actions: Select All Actions. 
+ARN: Paste the ARN shown on the Bucket Policy page. 
+Click “Add Statement” and then click “Generate Policy.” 
+ 
+
+
+
+
+
+
+Copy the generated policy. 
+Paste the generated policy into the “Bucket policy” editor. Then edit item 9 by changing the “Resource” value to:
+"Resource": "arn:aws:s3:::mohantyabhishek123/*"
+ 
+
+Then scroll down and click “Save changes.” 
+Open the image using the URL below. You will see the uploaded image displayed. 
+ 
